@@ -28,7 +28,7 @@ function imprimirObjeto(obj){
     }
 }
 
-function especificar(tiposuscribcion){
+function especificar(tiposuscribcion=prompt('tipo de suscripcion')){
 const suscripcion = {
     free:'gratis',
     Expert:'expeto',
